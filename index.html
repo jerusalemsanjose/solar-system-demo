@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>SolarSYS</title>
+    <link rel="icon" type="image/png" href="asset/ics/globe.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style/ui.css" />
+    <script src="https://cdn.jsdelivr.net/npm/three@0.150.1/build/three.min.js"></script>
+  </head>
+
+  <body>
+    <!-- Scripts -->
+    <script src="script/solar.js"></script>
+    <script src="script/ui.js"></script>
+    <script src="script/orbitcontrols.js"></script>
+
+    <!-- Planet Labels -->
+    <div id="labels">
+      <span id="label1" class="planet-label" data-planet="Mercury">
+        ━ Mercury • 47.87 km/s ~88
+      </span>
+      <span id="label2" class="planet-label" data-planet="Venus">
+        ━ Venus • 35.02 km/s ~225
+      </span>
+      <span id="label3" class="planet-label" data-planet="Earth">
+        ━ Earth • 29.78 km/s ~365
+      </span>
+      <span id="label4" class="planet-label" data-planet="Mars">
+        ━ Mars • 24.07 km/s ~687
+      </span>
+      <span id="label5" class="planet-label" data-planet="Jupiter">
+        ━ Jupiter • 13.07 km/s ~4333
+      </span>
+      <span id="label6" class="planet-label" data-planet="Saturn">
+        ━ Saturn • 9.69 km/s ~10759
+      </span>
+      <span id="label7" class="planet-label" data-planet="Uranus">
+        ━ Uranus • 6.81 km/s ~30687
+      </span>
+    </div>
+   
+    <!-- Audio -->
+    <audio id="bg-music">
+       <source src="asset/audio/space-of-mystery-meditation-165171.mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- Titles -->
+    <div class="title">
+      <h1>SolarSYS</h1>
+    </div>
+    <div class="semititle">
+      <p>Space in Your Browser ☼</p>
+    </div>
+    <div class="semititle1">
+      <p>The Solar System is Your Playground</p>
+    </div>
+
+    <!-- Top details -->
+    <nav id="navbar">
+      <footer>
+       Developed By Jerus San Jose │ Empowered using WebGL and Three.js: Rendering worlds, one frame at a time
+      </footer>
+    </nav>
+
+    <!-- Canvas -->
+    <canvas id="threeCanvas"></canvas>
+  </body>
+</html>
