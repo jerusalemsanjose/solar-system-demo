@@ -1,5 +1,6 @@
 # solar-system-demo
-This is a showcase of my project SolarSYS: It is a simple and lightweight browser-based 3D simulation of the solar system, built with WebGL and powered by Three.js. Over the course, it took me two days. This designed as a simple demo and exploratory tool. Although, I'm not done it with it yet. Developed By: Taan, Jerusalem S.
+This is a showcase of my project SolarSYS: It is a simple and lightweight browser-based 3D simulation of the solar system, built with WebGL and powered by Three.js. Over the course, it took me two days. This designed as a simple demo and exploratory tool. Although, I'm not done it with it yet. 
+(https://jerustan.github.io/solar-system-demo/)
 
 Features:
 - Zoom In and Out using your mouse's scroll
